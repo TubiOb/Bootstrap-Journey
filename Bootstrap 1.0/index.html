@@ -13,20 +13,67 @@
 </head>
 
 <body>
-    <!-- class="bg-image card" style="background-image: url('./img/classic-car-584118_1920.jpg');"
-    <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white" style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp');">
-        <h1 class="mb-3 h2">Jumbotron</h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Vintars</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li> -->
+                </ul>
+                <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+                <div class="btn-group">
+                    <button class="btn btn-secondary btn-sm" type="button">Shop Vintars</button>
+                    <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu mw-100">
+                        ...
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus praesentium labore accusamus sequi, voluptate debitis tenetur in deleniti possimus modi voluptatum neque maiores dolorem unde? Aut dolorum quod excepturi fugit.
-        </p>
-    </div> -->
 
-    <section class="bg-image" style="background-image: url('./img/classic-car-584118_1920.jpg');">
+    <section class="p-5 text-center bg-image" style="background-image: url('./img/classic-car-584118_1920.jpg'); height: 100vh;">
         <!-- <img src="https://via.placeholder.com/1500x600.png" class="img-fluid" alt="Placeholder Image"> -->
-        <div class="overlay">
+        <!-- <div class="overlay">
             <h1 class="text-white">This is the overlay</h1>
             <p class="text-white">Some text goes here</p>
+        </div> -->
+        <div class="mask d-flex justify-content-center align-items-center" style="background-color: rgba(0, 0, 0, 0.6); background: none;">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white">
+                    <h4 class="mb-3">Custom heading</h4>
+                    <h3 class="mb-2">paragraph</h3>
+                    <a class="btn btn-outline-light btn-lg" href="#!" role="button">Shop Vintars</a>
+                </div>
+            </div>
         </div>
     </section>
 

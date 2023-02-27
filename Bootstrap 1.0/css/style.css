@@ -14,10 +14,50 @@ html {
 }
 
 body {
-    background-image: url('./img/classic-car-584118_1920.jpg');
+    /* background-image: url('./img/classic-car-584118_1920.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
+
+.p-5 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mask {
+    /* width: 100px; */
+    background-color: brown;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* right: 50%; */
+    width: 250px;
+    height: 30%;
+    padding: 15px;
+    border: 2px solid slateblue;
+}
+
+.mask h4,
+.mask h3,
+.mask a {
+    color: rgb(2, 63, 34);
+}
+
+.d-flex {
+    /* border: 1px solid red;
+    border: 2px solid slateblue; */
+    /* margin: auto; */
+}
+
+.dropdown-menu {
+    max-width: 100%;
 }
 
 
